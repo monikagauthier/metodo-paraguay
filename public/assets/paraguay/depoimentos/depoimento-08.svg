@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1600" viewBox="0 0 900 1600" role="img" aria-label="ADICIONAR PRINT REAL">
+  <defs>
+    <pattern id="hatch" width="18" height="18" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="18" height="18" fill="#263D33"/>
+      <line x1="0" y1="0" x2="0" y2="18" stroke="#F0CC7C" stroke-opacity="0.12" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="1600" fill="url(#hatch)"/>
+  <rect x="8" y="8" width="884" height="1584" fill="none" stroke="#F0CC7C" stroke-opacity="0.5" stroke-width="3" stroke-dasharray="12 8" rx="14"/>
+  <text x="50%" y="46%" fill="#F0CC7C" font-family="Manrope, Arial, sans-serif" font-size="53" font-weight="800" text-anchor="middle" letter-spacing="1">ADICIONAR PRINT REAL</text>
+  <text x="50%" y="46%" dy="59" fill="#F5F1E8" fill-opacity="0.8" font-family="Inter, Arial, sans-serif" font-size="33" text-anchor="middle">depoimento-08.webp</text>
+  <text x="50%" y="1582" fill="#F0CC7C" fill-opacity="0.65" font-family="Inter, Arial, sans-serif" font-size="33" text-anchor="middle">900×1600</text>
+</svg>

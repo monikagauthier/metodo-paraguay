@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-label="CAIXA DE PRESENTE 3D">
+  <defs>
+    <pattern id="hatch" width="18" height="18" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="18" height="18" fill="#101A17"/>
+      <line x1="0" y1="0" x2="0" y2="18" stroke="#D8B76E" stroke-opacity="0.12" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="url(#hatch)"/>
+  <rect x="8" y="8" width="784" height="784" fill="none" stroke="#D8B76E" stroke-opacity="0.5" stroke-width="3" stroke-dasharray="12 8" rx="14"/>
+  <text x="50%" y="46%" fill="#D8B76E" font-family="Manrope, Arial, sans-serif" font-size="48" font-weight="800" text-anchor="middle" letter-spacing="1">CAIXA DE PRESENTE 3D</text>
+  <text x="50%" y="46%" dy="54" fill="#F5F1E8" fill-opacity="0.8" font-family="Inter, Arial, sans-serif" font-size="30" text-anchor="middle">preta e dourada — caixa-presente.webp</text>
+  <text x="50%" y="782" fill="#D8B76E" fill-opacity="0.65" font-family="Inter, Arial, sans-serif" font-size="30" text-anchor="middle">800×800</text>
+</svg>
