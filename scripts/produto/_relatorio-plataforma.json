@@ -1,0 +1,182 @@
+{
+  "data": "2026-11-01T03:15:58.314Z",
+  "total": 35,
+  "falhas": 0,
+  "resultados": [
+    {
+      "nome": "Rota #/ renderiza",
+      "ok": true,
+      "det": "Bem-vindo ao Método Paraguay (2879 caracteres)"
+    },
+    {
+      "nome": "Rota #/modulos renderiza",
+      "ok": true,
+      "det": "Módulos (1941 caracteres)"
+    },
+    {
+      "nome": "Rota #/modulo/01 renderiza",
+      "ok": true,
+      "det": "Conhecendo o Paraguai (1665 caracteres)"
+    },
+    {
+      "nome": "Rota #/aula/m01-a01 renderiza",
+      "ok": true,
+      "det": "Por que brasileiros consideram o Paraguai? (5556 caracteres)"
+    },
+    {
+      "nome": "Rota #/aula/m10-a06 renderiza",
+      "ok": true,
+      "det": "Saída definitiva do Brasil (3067 caracteres)"
+    },
+    {
+      "nome": "Rota #/biblioteca renderiza",
+      "ok": true,
+      "det": "Biblioteca (7080 caracteres)"
+    },
+    {
+      "nome": "Rota #/biblioteca?c=Bônus renderiza",
+      "ok": true,
+      "det": "Biblioteca (2507 caracteres)"
+    },
+    {
+      "nome": "Rota #/biblioteca?c=Planilhas renderiza",
+      "ok": true,
+      "det": "Biblioteca (1724 caracteres)"
+    },
+    {
+      "nome": "Rota #/ferramentas renderiza",
+      "ok": true,
+      "det": "Ferramentas (2863 caracteres)"
+    },
+    {
+      "nome": "Rota #/plano renderiza",
+      "ok": true,
+      "det": "Plano de ação de 90 dias (878 caracteres)"
+    },
+    {
+      "nome": "Rota #/progresso renderiza",
+      "ok": true,
+      "det": "Progresso (798 caracteres)"
+    },
+    {
+      "nome": "Rota #/ajuda renderiza",
+      "ok": true,
+      "det": "Como usar (8545 caracteres)"
+    },
+    {
+      "nome": "Rota #/busca?q=apostila renderiza",
+      "ok": true,
+      "det": "Resultados (1374 caracteres)"
+    },
+    {
+      "nome": "Rota #/naoexiste renderiza",
+      "ok": true,
+      "det": "Página não encontrada (104 caracteres)"
+    },
+    {
+      "nome": "Busca por 'apostila' encontra aulas",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Aula concluída persiste após recarregar",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Checklist da aula persiste",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Início mostra 'Continuar estudando' para a aula seguinte",
+      "ok": true,
+      "det": "Continuar estudando|#/aula/m01-a02"
+    },
+    {
+      "nome": "Percentual geral atualizado",
+      "ok": true,
+      "det": "1%"
+    },
+    {
+      "nome": "Tarefa do plano persiste",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Calculadora calcula com o exemplo",
+      "ok": true,
+      "det": "Custo mensal (com margem) | Gs. 10.538.440"
+    },
+    {
+      "nome": "Calculadora recalcula ao editar",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Filtro Checklists mostra apenas checklists",
+      "ok": true,
+      "det": "10 cartões"
+    },
+    {
+      "nome": "Downloads da biblioteca respondem 200 (55 arquivos)",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Clique em Baixar inicia o download",
+      "ok": true,
+      "det": "01-manual-mestre-metodo-paraguay.pdf"
+    },
+    {
+      "nome": "Exportação de progresso gera JSON válido",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Sem rolagem horizontal em 320px",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Sem rolagem horizontal em 375px",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Sem rolagem horizontal em 390px",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Sem rolagem horizontal em 430px",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Sem rolagem horizontal em 768px",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Sem rolagem horizontal em 1024px",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Sem rolagem horizontal em 1440px",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Nenhum erro de console, de página ou de rede",
+      "ok": true,
+      "det": ""
+    },
+    {
+      "nome": "Funciona aberta direto do arquivo (file://)",
+      "ok": true,
+      "det": ""
+    }
+  ]
+}

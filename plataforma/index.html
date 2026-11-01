@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Área de Membros — Método Paraguay</title>
+  <meta name="description" content="Área de membros do Método Paraguay: módulos, aulas, biblioteca de materiais, ferramentas e plano de ação.">
+  <meta name="theme-color" content="#101A17">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/png" href="../assets/produto/img/emblema.png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <div class="app">
+    <aside class="lateral" aria-label="Navegação principal">
+      <a class="marca" href="#/" aria-label="Início — Método Paraguay">
+        <img src="../assets/produto/img/emblema.png" alt="" width="40" height="40">
+        <span><b>MÉTODO PARAGUAY</b><small>Área de membros</small></span>
+      </a>
+      <nav>
+        <a href="#/" data-nav="inicio"><span class="ic" aria-hidden="true" data-icon="inicio"></span>Início</a>
+        <a href="#/modulos" data-nav="modulos"><span class="ic" aria-hidden="true" data-icon="modulos"></span>Módulos</a>
+        <a href="#/biblioteca" data-nav="biblioteca"><span class="ic" aria-hidden="true" data-icon="biblioteca"></span>Biblioteca</a>
+        <a href="#/ferramentas" data-nav="ferramentas"><span class="ic" aria-hidden="true" data-icon="ferramentas"></span>Ferramentas</a>
+        <a href="#/plano" data-nav="plano"><span class="ic" aria-hidden="true" data-icon="plano"></span>Plano de ação</a>
+        <a href="#/progresso" data-nav="progresso"><span class="ic" aria-hidden="true" data-icon="progresso"></span>Progresso</a>
+        <a href="#/ajuda" data-nav="ajuda"><span class="ic" aria-hidden="true" data-icon="ajuda"></span>Central de ajuda</a>
+      </nav>
+      <form class="busca" role="search" id="form-busca">
+        <label class="sr" for="campo-busca">Buscar nas aulas</label>
+        <input id="campo-busca" type="search" placeholder="Buscar nas aulas…" autocomplete="off">
+      </form>
+      <p class="edicao" id="edicao"></p>
+    </aside>
+    <main id="conteudo" tabindex="-1" aria-live="polite">
+      <div class="estado">
+        <div class="spinner" aria-hidden="true"></div>
+        <p>Carregando a área de membros…</p>
+      </div>
+      <noscript><div class="estado erro"><p>Esta área de membros precisa de JavaScript ativado no navegador.</p></div></noscript>
+    </main>
+  </div>
+  <nav class="inferior" aria-label="Navegação rápida">
+    <a href="#/" data-nav="inicio"><span aria-hidden="true" data-icon="inicio"></span>Início</a>
+    <a href="#/modulos" data-nav="modulos"><span aria-hidden="true" data-icon="modulos"></span>Módulos</a>
+    <a href="#/biblioteca" data-nav="biblioteca"><span aria-hidden="true" data-icon="biblioteca"></span>Materiais</a>
+    <a href="#/plano" data-nav="plano"><span aria-hidden="true" data-icon="plano"></span>Plano</a>
+    <a href="#/ajuda" data-nav="ajuda"><span aria-hidden="true" data-icon="ajuda"></span>Ajuda</a>
+  </nav>
+  <script src="data/dados.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

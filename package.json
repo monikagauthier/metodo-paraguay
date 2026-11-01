@@ -10,7 +10,15 @@
     "preview": "vite preview",
     "serve:static": "node scripts/serve.mjs",
     "gen:placeholders": "node scripts/gen-placeholders.mjs",
-    "verify:assets": "node scripts/verify-assets.mjs"
+    "verify:assets": "node scripts/verify-assets.mjs",
+    "produto:pdf": "node scripts/produto/build-pdfs.mjs",
+    "produto:forms": "node scripts/produto/build-forms.mjs",
+    "produto:xlsx": "node scripts/produto/build-xlsx.mjs",
+    "produto:docx": "node scripts/produto/build-docx.mjs",
+    "produto:plataforma": "node scripts/produto/build-plataforma.mjs",
+    "produto:testar": "node scripts/produto/tools/test-plataforma.mjs",
+    "produto:distribuir": "node scripts/produto/build-distribuicao.mjs",
+    "produto:build": "npm run produto:xlsx && npm run produto:docx && npm run produto:pdf && npm run produto:forms && npm run produto:plataforma && npm run produto:testar && npm run produto:distribuir"
   },
   "dependencies": {
     "framer-motion": "^11.3.0",

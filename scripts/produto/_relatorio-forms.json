@@ -1,0 +1,119 @@
+[
+  {
+    "id": "13",
+    "arquivo": "entregaveis/checklists/13-checklist-de-documentacao.pdf",
+    "paginas": 2,
+    "campos": 72,
+    "camposDetectados": 72,
+    "erros": [],
+    "tamanhoKB": 596
+  },
+  {
+    "id": "14",
+    "arquivo": "entregaveis/checklists/14-checklist-de-mudanca.pdf",
+    "paginas": 2,
+    "campos": 59,
+    "camposDetectados": 59,
+    "erros": [],
+    "tamanhoKB": 533
+  },
+  {
+    "id": "15",
+    "arquivo": "entregaveis/checklists/15-checklist-de-aluguel.pdf",
+    "paginas": 3,
+    "campos": 84,
+    "camposDetectados": 84,
+    "erros": [],
+    "tamanhoKB": 594
+  },
+  {
+    "id": "16",
+    "arquivo": "entregaveis/checklists/16-checklist-bancario.pdf",
+    "paginas": 2,
+    "campos": 59,
+    "camposDetectados": 59,
+    "erros": [],
+    "tamanhoKB": 545
+  },
+  {
+    "id": "30",
+    "arquivo": "entregaveis/modelos/30-meu-plano-paraguay.pdf",
+    "paginas": 4,
+    "campos": 181,
+    "camposDetectados": 181,
+    "erros": [],
+    "tamanhoKB": 698
+  },
+  {
+    "id": "X10",
+    "arquivo": "entregaveis/checklists/checklist-de-questoes-para-o-contador.pdf",
+    "paginas": 2,
+    "campos": 64,
+    "camposDetectados": 64,
+    "erros": [],
+    "tamanhoKB": 537
+  },
+  {
+    "id": "X08",
+    "arquivo": "entregaveis/checklists/checklist-de-abertura-empresarial.pdf",
+    "paginas": 2,
+    "campos": 55,
+    "camposDetectados": 55,
+    "erros": [],
+    "tamanhoKB": 532
+  },
+  {
+    "id": "X07",
+    "arquivo": "entregaveis/checklists/checklist-de-diligencia-antes-de-investir.pdf",
+    "paginas": 2,
+    "campos": 59,
+    "camposDetectados": 59,
+    "erros": [],
+    "tamanhoKB": 541
+  },
+  {
+    "id": "X11",
+    "arquivo": "entregaveis/checklists/checklist-de-instalacao-no-pais.pdf",
+    "paginas": 2,
+    "campos": 55,
+    "camposDetectados": 55,
+    "erros": [],
+    "tamanhoKB": 523
+  },
+  {
+    "id": "X09",
+    "arquivo": "entregaveis/checklists/checklist-de-preparacao-para-entrevistas.pdf",
+    "paginas": 2,
+    "campos": 25,
+    "camposDetectados": 25,
+    "erros": [],
+    "tamanhoKB": 488
+  },
+  {
+    "id": "B4",
+    "arquivo": "entregaveis/bonus/bonus-04-mapa-de-decisao/mapa-de-decisao.pdf",
+    "paginas": 2,
+    "campos": 39,
+    "camposDetectados": 39,
+    "erros": [],
+    "tamanhoKB": 548
+  },
+  {
+    "id": "B5",
+    "arquivo": "entregaveis/bonus/bonus-05-plano-paraguay-90-dias/quadro-de-acompanhamento-semanal.pdf",
+    "paginas": 2,
+    "campos": 69,
+    "camposDetectados": 69,
+    "erros": [],
+    "tamanhoKB": 574
+  },
+  {
+    "id": "26",
+    "arquivo": "entregaveis/planilhas/26-planner-de-90-dias.pdf",
+    "paginas": 14,
+    "campos": 311,
+    "camposDetectados": 311,
+    "erros": [],
+    "tamanhoKB": 902
+  }
+]

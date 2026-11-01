@@ -1,0 +1,71 @@
+{
+  "atualizadoEm": "2026-11-01",
+  "observacao": "Endereços de portais oficiais identificados em pesquisa realizada entre 31/10/2026 e 01/11/2026. As páginas não puderam ser abertas diretamente a partir do ambiente de produção (acesso bloqueado); os endereços foram confirmados por resultados de busca. Confira sempre o conteúdo vigente no próprio portal.",
+  "grupos": [
+    {
+      "titulo": "Migração e identidade — Paraguai",
+      "itens": [
+        { "nome": "Dirección Nacional de Migraciones (DNM)", "url": "https://www.migraciones.gov.py", "uso": "Residência temporária e permanente, tabela de taxas, agendamentos, certificados migratórios." },
+        { "nome": "Ley N.º 6984/2022 de Migraciones — Biblioteca e Archivo Central del Congreso", "url": "https://www.bacn.gov.py/leyes-paraguayas/10973/ley-n-6984-de-migraciones", "uso": "Texto integral da lei migratória vigente." },
+        { "nome": "Departamento de Identificaciones — Policía Nacional", "url": "https://www.identificaciones.gov.py", "uso": "Cédula de identidade paraguaia para estrangeiros, antecedentes policiais, passaporte paraguaio." },
+        { "nome": "Ministerio de Relaciones Exteriores del Paraguay — Residencia en Paraguay", "url": "https://www2.mre.gov.py/index.php/tramites/residencia-en-paraguay", "uso": "Lista orientativa de documentos para residência e apostilamento de documentos paraguaios." },
+        { "nome": "Ministerio de Relaciones Exteriores del Paraguay — Portal", "url": "https://www.mre.gov.py", "uso": "Representações diplomáticas, legalizações e apostila paraguaia." }
+      ]
+    },
+    {
+      "titulo": "Economia, bancos e estatística — Paraguai",
+      "itens": [
+        { "nome": "Banco Central del Paraguay (BCP)", "url": "https://www.bcp.gov.py", "uso": "Política monetária, inflação, relatórios e normas do sistema financeiro." },
+        { "nome": "BCP — Cotización referencial de monedas", "url": "https://www.bcp.gov.py/webapps/web/cotizacion/monedas", "uso": "Câmbio de referência do dólar e de outras moedas frente ao guarani." },
+        { "nome": "BCP — Entidades supervisadas", "url": "https://www.bcp.gov.py/web/institucional/entidades-supervisadas", "uso": "Lista oficial de bancos, financeiras e casas de câmbio autorizadas." },
+        { "nome": "Instituto Nacional de Estadística (INE)", "url": "https://www.ine.gov.py", "uso": "Censo 2022, população por distrito, pesquisas de domicílios e emprego." },
+        { "nome": "INE — Resultados do Censo 2022", "url": "https://www.ine.gov.py/censo2022/", "uso": "Dados finais do Censo Nacional de Población y Viviendas 2022." },
+        { "nome": "SEPRELAD — Secretaría de Prevención de Lavado de Dinero o Bienes", "url": "https://www.seprelad.gov.py", "uso": "Normas de prevenção à lavagem de dinheiro que orientam a abertura de contas (KYC)." }
+      ]
+    },
+    {
+      "titulo": "Tributos, empresas e trabalho — Paraguai",
+      "itens": [
+        { "nome": "Dirección Nacional de Ingresos Tributarios (DNIT)", "url": "https://www.dnit.gov.py", "uso": "RUC, IRP, IRE, IVA, IDU, calendário de vencimentos e sistema Marangatu." },
+        { "nome": "DNIT — Impuesto a la Renta Personal (IRP)", "url": "https://www.dnit.gov.py/web/portal-institucional/irp", "uso": "Conceito, alíquotas e obrigados do IRP." },
+        { "nome": "DNIT — IRP: ingresos provenientes del exterior", "url": "https://www.dnit.gov.py/web/portal-institucional/w/irp-ingresos-provenientes-del-exterior-", "uso": "Orientação oficial sobre rendas do exterior e IRP." },
+        { "nome": "DNIT — Impuesto a la Renta Empresarial (IRE)", "url": "https://www.dnit.gov.py/web/portal-institucional/ire", "uso": "Regimes e alíquota do IRE." },
+        { "nome": "DNIT — Ley N.º 6380/2019", "url": "https://www.dnit.gov.py/web/portal-institucional/w/ley-n-6380-19", "uso": "Lei de modernização e simplificação do sistema tributário." },
+        { "nome": "SUACE — Sistema Unificado de Apertura y Cierre de Empresas", "url": "https://suace.gov.py", "uso": "Abertura de empresas e Constancia de Inversionista." },
+        { "nome": "EAS — Empresa por Acciones Simplificadas (MIC)", "url": "https://eas.mic.gov.py", "uso": "Constituição eletrônica de EAS (Ley 6480/2020)." },
+        { "nome": "Ministerio de Industria y Comercio (MIC)", "url": "https://www.mic.gov.py", "uso": "Paraguay Investor Pass, constância de investidor, MIPYMES." },
+        { "nome": "Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)", "url": "https://www.mtess.gov.py", "uso": "Salário mínimo, contratos, registro de empregadores e trabalhadores." },
+        { "nome": "Instituto de Previsión Social (IPS)", "url": "https://portal.ips.gov.py", "uso": "Seguro social: aportes, cobertura de saúde e aposentadoria." }
+      ]
+    },
+    {
+      "titulo": "Serviços públicos e vida prática — Paraguai",
+      "itens": [
+        { "nome": "ANDE — Administración Nacional de Electricidad", "url": "https://www.ande.gov.py", "uso": "Energia elétrica, simulador de consumo e tarifas." },
+        { "nome": "ESSAP — Empresa de Servicios Sanitarios del Paraguay", "url": "https://www.essap.com.py", "uso": "Água e esgoto na região metropolitana de Assunção (confirmar a prestadora do seu endereço)." },
+        { "nome": "Ministerio de Salud Pública y Bienestar Social (MSPBS)", "url": "https://www.mspbs.gov.py", "uso": "Rede pública de saúde, vacinação e emergências." },
+        { "nome": "Ministerio de Educación y Ciencias (MEC)", "url": "https://www.mec.gov.py", "uso": "Matrícula escolar, reconhecimento e equivalência de estudos." },
+        { "nome": "Municipalidad de Asunción — Licencias de conducir", "url": "https://www.asuncion.gov.py/f-a-q/requisitos-para-obtencion-de-licencias-de-conducir", "uso": "Requisitos de habilitação na capital (cada município tem sua página)." },
+        { "nome": "ANTSV — Agencia Nacional de Tránsito y Seguridad Vial", "url": "https://www.antsv.gov.py", "uso": "Regras nacionais de trânsito e licença unificada." },
+        { "nome": "Portal Paraguay — trámites", "url": "https://www.paraguay.gov.py", "uso": "Portal de serviços e trâmites do governo paraguaio." }
+      ]
+    },
+    {
+      "titulo": "Brasil — Receita Federal, Banco Central e documentos",
+      "itens": [
+        { "nome": "Receita Federal — Comunicar saída definitiva do país", "url": "https://www.gov.br/pt-br/servicos/comunicar-saida-definitiva-do-pais", "uso": "Comunicação de Saída Definitiva do País (CSDP)." },
+        { "nome": "Receita Federal — Declaração de Saída Definitiva do País (DSDP)", "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/preenchimento/dsdp", "uso": "Quem deve entregar, prazos e efeitos da DSDP." },
+        { "nome": "Receita Federal — Acordos para evitar a dupla tributação", "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/acordos-internacionais/acordos-para-evitar-a-dupla-tributacao", "uso": "Lista oficial dos acordos em vigor no Brasil." },
+        { "nome": "Banco Central do Brasil — Capitais Brasileiros no Exterior (CBE)", "url": "https://www.gov.br/pt-br/servicos/preencher-declaracao-de-capitais-brasileiros-no-exterior", "uso": "Declaração anual para residentes com ativos no exterior a partir do limite vigente." },
+        { "nome": "Banco Central do Brasil — Câmbio e PTAX (dados abertos)", "url": "https://dadosabertos.bcb.gov.br/dataset/dolar-americano-usd-todos-os-boletins-diarios", "uso": "Cotações oficiais do dólar no Brasil." },
+        { "nome": "Polícia Federal — Certidão de antecedentes criminais", "url": "https://www.gov.br/pt-br/servicos/emitir-certidao-de-antecedentes-criminais", "uso": "Certidão federal gratuita e online." },
+        { "nome": "CNJ — Apostila da Haia", "url": "https://www.cnj.jus.br/poder-judiciario/relacoes-internacionais/apostila-da-haia/", "uso": "Como e onde apostilar documentos brasileiros." },
+        { "nome": "Itamaraty — Assistência consular", "url": "https://www.gov.br/mre/pt-br/assuntos/portal-consular/assistencia-consular", "uso": "Assistência a brasileiros no exterior e localização de repartições consulares." },
+        { "nome": "Itamaraty — e-consular (agendamentos e serviços)", "url": "https://econsular.itamaraty.gov.br/", "uso": "Solicitação de serviços consulares (há instâncias por consulado, por exemplo Ciudad del Este)." },
+        { "nome": "Consulado-Geral do Brasil em Ciudad del Este — e-consular", "url": "https://ec-deleste.itamaraty.gov.br/", "uso": "Serviços consulares na região de Alto Paraná." },
+        { "nome": "Polícia Federal — Viagem ao Mercosul sem passaporte", "url": "https://www.gov.br/pf/pt-br/assuntos/passaporte/ajuda/duvidas_/inicio/inicio-posso-viajar-ao-mercosul-sem", "uso": "Documentos aceitos para entrada nos países do Mercosul." },
+        { "nome": "Legislação federal — Lei 14.754/2023 (Planalto)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14754.htm", "uso": "Tributação de aplicações no exterior de pessoas físicas residentes no Brasil." }
+      ]
+    }
+  ]
+}
