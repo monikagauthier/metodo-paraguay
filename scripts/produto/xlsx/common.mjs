@@ -46,10 +46,13 @@ export function instrucoes(wb, titulo, objetivo, passos, observacoes = []) {
   return ws;
 }
 
+export const GERADAS = [];
+
 export function salvar(wb, nome, subdir) {
   const dir = subdir ? path.join(ROOT, "entregaveis", subdir) : OUT;
   fs.mkdirSync(dir, { recursive: true });
   const p = path.join(dir, nome);
   const values = wb.save(p);
+  GERADAS.push({ wb, values, path: p });
   return { path: p, values };
 }

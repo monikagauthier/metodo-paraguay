@@ -19,7 +19,9 @@ for (let i = 1; i <= 12; i++) {
 const biblioteca = BIBLIOTECA.map((b) => {
   const abs = path.join(ROOT, b.arquivo);
   const existe = fs.existsSync(abs);
-  return { ...b, href: "../" + b.arquivo, tamanho: existe ? fs.statSync(abs).size : 0, existe };
+  const pdfAbs = b.pdf && path.join(ROOT, b.pdf);
+  if (b.pdf && !fs.existsSync(pdfAbs)) { console.error("PDF ausente:", b.pdf); process.exitCode = 1; }
+  return { ...b, href: "../" + b.arquivo, tamanho: existe ? fs.statSync(abs).size : 0, existe, pdfHref: b.pdf ? "../" + b.pdf : null, pdfTamanho: b.pdf && fs.existsSync(pdfAbs) ? fs.statSync(pdfAbs).size : 0 };
 });
 const faltando = biblioteca.filter((b) => !b.existe);
 if (faltando.length) { console.error("Arquivos ausentes:", faltando.map((f) => f.arquivo)); process.exitCode = 1; }

@@ -60,7 +60,7 @@
   function fmtClasse(f) { return f === "XLSX" ? "xlsx" : f === "DOCX" ? "docx" : /preench/.test(f) ? "form" : ""; }
   function cartaoArquivo(b) {
     return `<article class="cartao arquivo"><span class="fmt ${fmtClasse(b.formato)}">${esc(b.formato)}</span><h3>${esc(b.nome)}</h3><p>${esc(b.descricao)}</p>
-      <div class="rodape"><small>${fmtTam(b.tamanho)}</small><a class="btn btn-escuro btn-peq" href="${esc(b.href)}" download aria-label="Baixar ${esc(b.nome)} (${esc(b.formato)}, ${fmtTam(b.tamanho)})">Baixar</a></div></article>`;
+      <div class="rodape"><small>${fmtTam(b.tamanho)}</small><span style="display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end">${b.pdfHref ? `<a class="btn btn-linha btn-peq" href="${esc(b.pdfHref)}" download aria-label="Baixar ${esc(b.nome)} em PDF (${fmtTam(b.pdfTamanho)})">PDF</a>` : ""}<a class="btn btn-escuro btn-peq" href="${esc(b.href)}" download aria-label="Baixar ${esc(b.nome)} (${esc(b.formato)}, ${fmtTam(b.tamanho)})">Baixar ${esc(b.formato === "XLSX" || b.formato === "DOCX" ? b.formato : "")}</a></span></div></article>`;
   }
   function cartaoModulo(m) {
     const pg = progressoModulo(m);

@@ -48,6 +48,25 @@ Gerado automaticamente por `scripts/produto/build-distribuicao.mjs` em 01/11/202
 | B4P | Bônus 04 — Mapa de Decisão (PDF) | `entregaveis/bonus/bonus-04-mapa-de-decisao/mapa-de-decisao.pdf` | PDF preenchível | 548 KB | Gerado | OK — 2 p., 39 campos preenchíveis | 01/11/2026 | Conteúdo dos módulos 05, 12 |
 | B5 | Bônus 05 — Quadro de Acompanhamento Semanal | `entregaveis/bonus/bonus-05-plano-paraguay-90-dias/quadro-de-acompanhamento-semanal.pdf` | PDF preenchível | 574 KB | Gerado | OK — 2 p., 69 campos preenchíveis | 01/11/2026 | Conteúdo dos módulos 12 |
 
+## Versões PDF das planilhas e modelos
+
+Cada planilha (exceto o Planner 26, que já tem PDF preenchível próprio) e cada modelo DOCX tem uma versão PDF para consulta e impressão, com o exemplo calculado.
+
+| Nº | Versão PDF | Caminho | Tamanho | Páginas |
+|---|---|---|---|---|
+| 19 | Calculadora de Custo de Vida (PDF) | `entregaveis/planilhas/19-calculadora-de-custo-de-vida.pdf` | 677 KB | 6 |
+| 20 | Comparador Brasil x Paraguai (PDF) | `entregaveis/planilhas/20-comparador-brasil-x-paraguai.pdf` | 602 KB | 3 |
+| 21 | Simulador de Mudança (PDF) | `entregaveis/planilhas/21-simulador-de-mudanca.pdf` | 682 KB | 6 |
+| 22 | Controle Financeiro Internacional (PDF) | `entregaveis/planilhas/22-controle-financeiro-internacional.pdf` | 748 KB | 8 |
+| 23 | Comparador de Remessas (PDF) | `entregaveis/planilhas/23-comparador-de-remessas.pdf` | 562 KB | 2 |
+| 24 | Analisador de Investimentos (PDF) | `entregaveis/planilhas/24-analisador-de-investimentos.pdf` | 706 KB | 6 |
+| 25 | Planilha de Viabilidade Empresarial (PDF) | `entregaveis/planilhas/25-planilha-de-viabilidade-empresarial.pdf` | 678 KB | 5 |
+| 27 | Modelo de Currículo em Espanhol (PDF) | `entregaveis/modelos/27-modelo-de-curriculo-em-espanhol.pdf` | 561 KB | 3 |
+| 28 | Modelo de Planejamento Empresarial (PDF) | `entregaveis/modelos/28-modelo-de-planejamento-empresarial.pdf` | 611 KB | 4 |
+| 29 | Matriz de Escolha de Cidade (PDF) | `entregaveis/planilhas/29-matriz-de-escolha-de-cidade.pdf` | 595 KB | 3 |
+| B1 | Bônus 01 — Organizador Documental (PDF) | `entregaveis/bonus/bonus-01-kit-documental/bonus-01-organizador-documental.pdf` | 577 KB | 4 |
+| B4 | Bônus 04 — Mapa de Decisão (planilha) (PDF) | `entregaveis/bonus/bonus-04-mapa-de-decisao/bonus-04-mapa-de-decisao.pdf` | 643 KB | 5 |
+
 ## Outros componentes
 
 | Componente | Caminho | Status |

@@ -3,6 +3,7 @@ import { Docx } from "./lib/docx.mjs";
 import fs from "node:fs";
 import path from "node:path";
 import { ROOT } from "./lib/doc.mjs";
+import { htmlFileToPdf, pdfStats, closeBrowser } from "./lib/pdf.mjs";
 
 const OUT = path.join(ROOT, "entregaveis/modelos");
 fs.mkdirSync(OUT, { recursive: true });
@@ -41,6 +42,7 @@ cv.p("Dirigí · Coordiné · Implementé · Desarrollé · Negocié · Reduje �
 cv.h2("Checklist antes de enviar");
 cv.bullets(["Nenhum colchete restante.", "Revisão por falante nativo de espanhol.", "Telefone com código +595 (ou +55, se ainda não tiver linha local).", "Arquivo salvo em PDF com o nome «CV_Nombre_Apellido.pdf».", "Nível de espanhol declarado com honestidade."]);
 cv.save(path.join(OUT, "27-modelo-de-curriculo-em-espanhol.docx"));
+const PDFS = [[cv, "27-modelo-de-curriculo-em-espanhol"]];
 
 // ------------------------------------------------------------------ 28
 const pl = new Docx({ title: "Modelo de Planejamento Empresarial — Método Paraguay", rodape: "MODELO DE PLANEJAMENTO EMPRESARIAL" });
@@ -77,4 +79,12 @@ pl.table([["Mês", "Marco", "Evidência de conclusão"], ["1", "[Validação con
 pl.h1("14. Decisão");
 pl.p("Com base na validação e nos números: [abrir / ajustar / desistir]. Critério de revisão: [ex.: se em 6 meses a receita estiver abaixo de 80% do equilíbrio, rever preço, custos ou modelo].");
 pl.save(path.join(OUT, "28-modelo-de-planejamento-empresarial.docx"));
+PDFS.push([pl, "28-modelo-de-planejamento-empresarial"]);
+const htmlDir = path.join(ROOT, "scripts/produto/_html"); fs.mkdirSync(htmlDir, { recursive: true });
+for (const [d, nome] of PDFS) {
+  const hp = path.join(htmlDir, "docx-" + nome + ".html"); fs.writeFileSync(hp, d.htmlDoc());
+  const out = path.join(OUT, nome + ".pdf"); const r = await htmlFileToPdf(hp, out, { width: "210mm", height: "297mm" });
+  console.log(`${r.errors.length ? "✗" : "✓"} entregaveis/modelos/${nome}.pdf — ${pdfStats(fs.readFileSync(out)).paginas} p.`);
+}
+await closeBrowser();
 console.log("✓ DOCX gerados em entregaveis/modelos");

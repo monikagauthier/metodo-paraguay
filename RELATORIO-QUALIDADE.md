@@ -62,6 +62,10 @@
 | Integridade do pacote | ZIP íntegro, XML bem-formado e relacionamentos válidos em 13/13 arquivos (verificador Java) |
 | **Limitação** | Não havia Excel, LibreOffice nem Google Sheets no ambiente. Os arquivos seguem o padrão OOXML, mas **a abertura no Excel e no Google Sheets não pôde ser testada**. Recomenda-se abrir cada arquivo uma vez antes da venda |
 
+### Versões em PDF
+
+Todas as planilhas (exceto o Planner 26, que já tem PDF preenchível próprio) e os 2 modelos DOCX ganharam versão PDF ao lado do original: 12 arquivos, de 2 a 8 páginas cada, com todas as abas, o exemplo calculado, os campos de preenchimento destacados e os gráficos redesenhados como barras. São versões para leitura e impressão: os cálculos automáticos continuam só no XLSX. A biblioteca da área de membros mostra os botões "PDF" e "Baixar XLSX/DOCX" lado a lado (55 downloads testados, todos com HTTP 200).
+
 ## 6. Checklists e documentos preenchíveis
 
 13 PDFs com 1.132 campos AcroForm (caixas de seleção e texto). Campos conferidos visualmente sobre o desenho da página no visualizador do Chromium. **Recomendação:** testar o preenchimento e o salvamento no Adobe Acrobat Reader (computador e celular), que não estava disponível no ambiente.
@@ -96,7 +100,7 @@ Acessibilidade: link "pular para o conteúdo", foco visível, `aria-current` na 
 
 ## 9. Distribuição (Fase 9)
 
-`distribuicao/metodo-paraguay-v1.0.zip` — 92 arquivos, cerca de 42 MB, com entregáveis, plataforma, assets, conteúdo-fonte, referências, README, inventário e este relatório. Integridade conferida (teste de ZIP e comparação byte a byte com os originais).
+`distribuicao/metodo-paraguay-v1.0.zip` — 105 arquivos, cerca de 49 MB, com entregáveis, plataforma, assets, conteúdo-fonte, referências, README, inventário e este relatório. Integridade conferida (teste de ZIP e comparação byte a byte com os originais).
 
 ## 10. Pendências para a sua decisão
 

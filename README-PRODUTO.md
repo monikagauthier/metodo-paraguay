@@ -12,6 +12,7 @@ Este documento explica o que foi produzido, como usar, como publicar e como mant
 | Checklists e documentos preenchíveis (PDF com campos AcroForm) | `entregaveis/checklists/`, `entregaveis/modelos/30-…`, `entregaveis/planilhas/26-….pdf`, bônus 04 e 05 | 13 PDFs |
 | Planilhas com fórmulas, validação, proteção sem senha e gráficos | `entregaveis/planilhas/`, bônus 01 e 04 | 11 XLSX |
 | Modelos editáveis | `entregaveis/modelos/` | 2 DOCX |
+| Versões PDF das planilhas e modelos (consulta e impressão, com o exemplo calculado) | ao lado de cada XLSX/DOCX, mesmo nome com `.pdf` | 12 PDFs |
 | Área de membros | `plataforma/` | 1 aplicação estática |
 | Base de pesquisa, diretório oficial e pendências | `referencias/` | 3 arquivos |
 | Inventário | `INVENTARIO.md`, `distribuicao/inventario.csv` | 43 itens |

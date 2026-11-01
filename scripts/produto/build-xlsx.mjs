@@ -5,7 +5,9 @@ import { planner90, matrizCidade, organizadorDocumental, mapaDeDecisao } from ".
 import { isErr } from "./lib/formula.mjs";
 import fs from "node:fs";
 import path from "node:path";
-import { ROOT } from "./xlsx/common.mjs";
+import { ROOT, GERADAS } from "./xlsx/common.mjs";
+import { workbookHtml } from "./lib/xlsx-html.mjs";
+import { htmlFileToPdf, pdfStats, closeBrowser } from "./lib/pdf.mjs";
 
 const builders = [calculadoraCustoDeVida, comparadorBrasilParaguai, simuladorDeMudanca, controleFinanceiro, comparadorDeRemessas, analisadorDeInvestimentos, viabilidadeEmpresarial, planner90, matrizCidade, organizadorDocumental, mapaDeDecisao];
 const report = [];
@@ -34,5 +36,19 @@ for (const b of builders) {
   }[path.basename(p)] || [];
   for (const k of keys) console.log(`      ${k} = ${JSON.stringify(pick(k))}`);
 }
+// Versões PDF das planilhas (consulta e impressão). O Planner 26 já tem PDF próprio, preenchível.
+const htmlDir = path.join(ROOT, "scripts/produto/_html"); fs.mkdirSync(htmlDir, { recursive: true });
+for (const g of GERADAS) {
+  if (/26-planner/.test(g.path)) continue;
+  const titulo = g.wb.meta.title.replace(/ — Método Paraguay$/, "");
+  const html = workbookHtml(g.wb, g.values, { titulo, subtitulo: g.wb.meta.description || "", kicker: "Planilha · versão PDF" });
+  const hp = path.join(htmlDir, "xlsx-" + path.basename(g.path, ".xlsx") + ".html"); fs.writeFileSync(hp, html);
+  const out = g.path.replace(/\.xlsx$/, ".pdf");
+  const r = await htmlFileToPdf(hp, out, { width: "297mm", height: "210mm" });
+  const st = pdfStats(fs.readFileSync(out));
+  const item = report.find((x) => x.arquivo === path.relative(ROOT, g.path)); if (item) item.pdf = { arquivo: path.relative(ROOT, out), paginas: st.paginas, erros: r.errors };
+  console.log(`${r.errors.length ? "✗" : "✓"} ${path.relative(ROOT, out)} — ${st.paginas} p.${r.errors.length ? " " + r.errors.join("; ") : ""}`);
+}
+await closeBrowser();
 fs.writeFileSync(path.join(ROOT, "scripts/produto/_relatorio-xlsx.json"), JSON.stringify(report, null, 2));
 if (fail) process.exitCode = 1;

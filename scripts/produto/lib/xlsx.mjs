@@ -12,7 +12,7 @@ export const C = { verde: "FF101A17", verde2: "FF263D33", ouro: "FFB8995C", ouro
 const FMT = { gs: '#,##0" Gs."', brl: '"R$" #,##0.00', usd: '"US$" #,##0.00', int: "#,##0", dec2: "#,##0.00", pct: "0.0%", data: "dd/mm/yyyy", rate: "#,##0.00", num4: "0.0000" };
 
 /** Definição de estilos nomeados. */
-const STYLES = {
+export const STYLES = {
   default: {},
   titulo: { font: { sz: 18, b: true, color: C.verde }, },
   subtitulo: { font: { sz: 10, color: C.cinza, i: true }, wrap: true },

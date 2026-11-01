@@ -49,6 +49,9 @@ export const BIBLIOTECA = [
   F("B5", "Bônus 05 — Quadro de Acompanhamento Semanal", "entregaveis/bonus/bonus-05-plano-paraguay-90-dias/quadro-de-acompanhamento-semanal.pdf", "PDF preenchível", "Bônus", "Plano Paraguay 90 Dias: as 13 semanas em uma visão, com ritual, marcos e reserva. Usa o Planner de 90 Dias (26) em PDF e XLSX.", ["12"], { bonus: "B5" }),
 ];
 
+// Versões PDF (consulta e impressão) das planilhas e modelos editáveis
+for (const b of BIBLIOTECA) if (/^(XLSX|DOCX)$/.test(b.formato) && b.id !== "26") b.pdf = b.arquivo.replace(/\.(xlsx|docx)$/, ".pdf");
+
 export const BONUS = [
   { id: "B1", nome: "Kit Documental", descricao: "Checklists e organizadores para preparar a documentação.", itens: ["B1", "13"] },
   { id: "B2", nome: "Planner Financeiro Internacional", descricao: "Planilhas e orientações para planejar despesas e organizar reservas.", itens: ["B2", "19", "21", "22", "23"] },
