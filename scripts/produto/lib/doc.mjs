@@ -95,5 +95,5 @@ export function buildHtml(spec, pageMap = {}) {
   const rodape = `MÉTODO PARAGUAY  ·  ${spec.rodape || spec.titulo}`.toUpperCase().replace(/"/g, "'");
   return `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>${esc(spec.titulo)} — Método Paraguay</title>
 <link rel="stylesheet" href="../templates/pdf.css"><style>@page { @bottom-left { content: "${rodape}"; } }</style></head>
-<body>${capa}${intro}${spec.semSumario ? "" : tocHtml}${body.join("\n")}${contracapa}</body></html>`;
+<body class="${spec.compacto ? "compacto" : ""}">${capa}${intro}${spec.semSumario ? "" : tocHtml}${body.join("\n")}${contracapa}</body></html>`;
 }

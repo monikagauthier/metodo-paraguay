@@ -12,12 +12,14 @@ Os quatro estudos abaixo são **hipotéticos**. Eles percorrem o método do diag
 | Despesa estimada em Assunção (cenário intermediário ajustado) | R$ 12.500 |
 | Cobertura de renda | 72% |
 | Reserva disponível | R$ 90.000 |
-| Custos únicos estimados (com margem de 15%) | R$ 18.400 |
+| Custos únicos estimados (com margem de 15%) | R$ 31.107 |
 
 **Reserva necessária** (Aula 2.7), com 6 meses de transição e 6 de segurança:
-18.400 + (12.500 − 9.000) × 6 + 6 × 12.500 = 18.400 + 21.000 + 75.000 = **R$ 114.400**.
+31.107 + (12.500 − 9.000) × 6 + 6 × 12.500 = 31.107 + 21.000 + 75.000 = **R$ 127.107**.
 
-A reserva disponível (R$ 90.000) ficou abaixo do necessário. **Decisões:** adiar a mudança em 3 meses para poupar R$ 4.500 por mês (R$ 13.500), reduzir a moradia para Gs. 4.500.000 e mobiliar com usados (custos únicos de R$ 14.000). Nova necessidade: 14.000 + (11.900 − 9.000) × 6 + 6 × 11.900 = 14.000 + 17.400 + 71.400 = R$ 102.800, contra reserva de R$ 103.500. Plano aprovado, com margem estreita e gatilhos definidos.
+Este é exatamente o exemplo que vem preenchido no **Simulador de Mudança** (planilha 21), que acusa necessidade adicional de capital de R$ 37.107.
+
+A reserva disponível (R$ 90.000) ficou abaixo do necessário. **Decisões:** adiar a mudança em 4 meses para poupar R$ 4.700 por mês (R$ 18.800); reduzir a moradia para Gs. 4.500.000, encurtar a hospedagem temporária e mobiliar com usados, baixando os custos únicos para R$ 20.000 e a despesa mensal para R$ 11.900. Nova necessidade: 20.000 + (11.900 − 9.000) × 6 + 6 × 11.900 = 20.000 + 17.400 + 71.400 = R$ 108.800, igual à nova reserva de R$ 108.800. Plano aprovado, sem folga, com gatilhos definidos.
 
 **Documentos.** Certidões de nascimento e casamento atualizadas, antecedentes da Polícia Federal, apostilas. A certidão de casamento entrou primeiro no cronograma por ser a mais demorada.
 
