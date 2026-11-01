@@ -1,26 +1,21 @@
 # Controle de progresso — produção do Método Paraguay
 
-Arquivo de controle para continuar a produção entre sessões. Atualizado a cada etapa concluída.
-
-## Fases
+Atualizado em 01/11/2026.
 
 | Fase | Status |
 |---|---|
-| 1. Auditoria | Concluída (ver RELATORIO-QUALIDADE.md, seção Auditoria) |
-| 2. Pesquisa | Concluída com limitação: só resultados de busca (páginas não abriam). Ver referencias/base-de-pesquisa.md |
-| 3. Conteúdo | Em andamento |
-| 4. Manuais (PDF) | Pipeline pronto (scripts/produto/build-pdfs.mjs) |
-| 5. Ferramentas (XLSX/DOCX) | Pendente |
-| 6. Bônus | Pendente |
-| 7. Plataforma | Pendente |
-| 8. Validação | Pendente |
-| 9. Distribuição | Pendente |
+| 1. Auditoria | Concluída (RELATORIO-QUALIDADE.md, seção 1) |
+| 2. Pesquisa | Concluída com limitação (só trechos de busca). Pendências em referencias/pendencias-verificacao.md |
+| 3. Conteúdo | Concluída: 12 módulos, 115 aulas, 13 extras |
+| 4. Manuais (PDF) | Concluída: 17 PDFs editoriais |
+| 5. Ferramentas | Concluída: 11 XLSX, 2 DOCX, 13 PDFs preenchíveis |
+| 6. Bônus | Concluída: 5 bônus |
+| 7. Plataforma | Concluída: plataforma/ (35/35 testes) |
+| 8. Validação | Concluída no ambiente; testes manuais em Excel/Sheets/Acrobat e de links externos pendentes |
+| 9. Distribuição | Concluída: distribuicao/metodo-paraguay-v1.0.zip |
 
-## Conteúdo por módulo
+## Próxima sessão (se houver)
 
-| Módulo | Arquivo | Status |
-|---|---|---|
-| 01 | conteudo/modulo-01/modulo-01.md | Escrito |
-| 02 | conteudo/modulo-02/modulo-02.md | Escrito |
-| 03 | conteudo/modulo-03/modulo-03.md | Escrito |
-| 04–12 | — | Pendente |
+1. Resolver as pendências de prioridade alta (referencias/pendencias-verificacao.md).
+2. Atualizar a página de vendas para 12 módulos e 5 bônus.
+3. Rodar `npm run produto:build` após qualquer alteração de conteúdo.

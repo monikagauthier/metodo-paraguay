@@ -49,4 +49,4 @@ Controle | A partir do primeiro mês, registre tudo no Controle Financeiro.
 
 ## Sobre os valores de exemplo
 
-As planilhas vêm com uma aba **Exemplo**, preenchida com valores ilustrativos e identificados. Para usar, vá à aba de entrada, apague os exemplos e digite os seus dados. As células com fórmulas estão protegidas contra alteração acidental (sem senha); as células editáveis aparecem destacadas em amarelo-claro.
+As planilhas vêm **preenchidas com um exemplo ilustrativo e identificado** (o aviso aparece no topo de cada aba de entrada e na aba Instruções). Para usar, substitua os valores das células amarelas pelos seus dados. As células com fórmulas estão protegidas contra alteração acidental (proteção sem senha); as células editáveis aparecem destacadas em amarelo-claro.

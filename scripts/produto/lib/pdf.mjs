@@ -45,6 +45,7 @@ export async function htmlFileToPdf(htmlPath, pdfPath, { width = "170mm", height
   page.on("requestfailed", (r) => errors.push("Falha ao carregar: " + r.url()));
   await page.goto("file://" + path.resolve(htmlPath), { waitUntil: "load" });
   await page.evaluate(() => document.fonts.ready);
+  if (fields) await page.waitForFunction(() => window.__paginated === true, null, { timeout: 30000 });
   let fieldRects = null;
   if (fields) {
     await page.emulateMedia({ media: "print" });
@@ -55,7 +56,7 @@ export async function htmlFileToPdf(htmlPath, pdfPath, { width = "170mm", height
         const pr = pg.getBoundingClientRect();
         pg.querySelectorAll("[data-field]").forEach((el) => {
           const r = el.getBoundingClientRect();
-          res.push({ page: pi, name: el.dataset.field, type: el.dataset.type || "text", multiline: el.dataset.multiline === "1",
+          res.push({ page: pi, name: el.dataset.field, label: el.dataset.label || el.dataset.field, type: el.dataset.type || "text", multiline: el.dataset.multiline === "1",
             x: r.left - pr.left, y: r.top - pr.top, w: r.width, h: r.height, pw: pr.width, ph: pr.height });
         });
       });
@@ -122,7 +123,7 @@ export function pdfStats(buf) {
     paginas: pdf.pageList.length,
     links: (s.match(/\/Subtype \/Link/g) || []).length,
     linksExternos: (s.match(/\/URI \(/g) || []).length,
-    fontesEmbutidas: (s.match(/\/FontFile[23]?\s/g) || []).length,
+    fontesEmbutidas: new Set((s.match(/\/FontName \/[A-Z]{6}\+[^\s\/]+/g) || []).map((x) => x.split("+")[1])).size,
     temSumarioNavegavel: /\/Outlines \d+ 0 R/.test(pdf.catalog),
     campos: (s.match(/\/FT \/(Btn|Tx)/g) || []).length,
   };

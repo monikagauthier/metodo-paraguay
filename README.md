@@ -1,5 +1,7 @@
 # Método Paraguay — Página de Vendas
 
+> **Produto completo (aulas, manuais, planilhas, checklists, bônus e área de membros):** veja [README-PRODUTO.md](README-PRODUTO.md), [INVENTARIO.md](INVENTARIO.md) e [RELATORIO-QUALIDADE.md](RELATORIO-QUALIDADE.md).
+
 Página de vendas mobile-first para o **Método Paraguay** — _Inteligência sem fronteiras._
 
 Entregue em **duas versões coerentes** que compartilham os mesmos assets, paleta e estrutura:
